@@ -12,7 +12,7 @@ function App() {
 
     try {
       const response = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAWn381Sg3bJ6brKiMECwHVWE04Ii5A5rA",
+        url: `${import.meta.env.VITE_BASE_URL}/generateContent?key=${import.meta.env.VITE_API_KEY}`,
         method: 'post',
         data: { "contents": [{ "parts": [{ "text": question }] }] }
       });
