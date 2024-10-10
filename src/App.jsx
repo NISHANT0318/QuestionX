@@ -12,7 +12,7 @@ function App() {
 
     try {
       const response = await axios({
-        url: `${import.meta.env.VITE_BASE_URL}/generateContent?key=${import.meta.env.VITE_API_KEY}`,
+        url: `${import.meta.env.VITE_BASE_URL}=${import.meta.env.VITE_API_KEY}`,
         method: 'post',
         data: { "contents": [{ "parts": [{ "text": question }] }] }
       });
