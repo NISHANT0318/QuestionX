@@ -15,7 +15,7 @@ QuestionX is a chatbot application built using React and Vite that leverages AI 
 
 - **Frontend:** React, Vite, Axios
 - **Styling:** CSS
-- **AI Model:** [Google Gemini](https://cloud.google.com/generative-ai) (or any model you are using)
+- **AI Model:** Google Gemini Ai 
 
 ## Getting Started
 
